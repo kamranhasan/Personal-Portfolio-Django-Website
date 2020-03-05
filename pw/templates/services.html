@@ -1,0 +1,310 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Services by Kamran</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static  'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gijgo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a href="{% url 'index' %}">
+                                    <img width='70%' src="{% static 'img/logo.svg' %}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="{% url 'index' %}">home</a></li>
+                                        <li><a href="{% url 'about' %}">About</a></li>
+                                        <li><a href="{% url 'services' %}">Services</a></li>
+                                        <li><a href="#">Pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                 <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+                                                 <li><a href="{% url 'skills' %}">Skills</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="{% url 'contact' %}">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="Appointment">
+                                <div class="book_btn d-none d-lg-block">
+                                    <a  href="{% url 'contact' %}">Contact Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Services</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /bradcam_area  -->
+    <!-- service_area  -->
+    <div class="service_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="width='70%'section_title text-center mb-65">
+                            <span>Service Provided</span>
+                            <h3>Build brands campaigns  <br>
+                                 digital & electronic projects</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single_service text-center">
+                            <div class="icon">
+                                <img src="{% static 'img/svg_icon/1.svg' %}" alt="">
+                            </div>
+                            <h3>Graphic design</h3>
+                            <p>A Graphic Designer from Pakistan, specialising in logo design. Key areas include packaging, brochure design, logo and branding, advertising, poster design, marketing collateral and web banners.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single_service text-center">
+                            <div class="icon">
+                                <img src="{% static 'img/svg_icon/2.svg' %}" alt="">
+                            </div>
+                            <h3>Full Stack Web Development</h3>
+                            <p>With an experience of over 2 years in development using different platforms and keeping myself indulge in rapidly changing technologies, has resulted confidence and focus as a Developer. I do have an architectural concept to complete the work.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single_service text-center">
+                            <div class="icon">
+                                <img src="{% static 'img/svg_icon/3.svg' %}" alt="">
+                            </div>
+                            <h3>Electronic Projects</h3>
+                            <p>Provide assistance in ETAP and Raspberry Pi based projects. Also specialized in Power, Signal and Systems, EMT, Physics, Power Electronics, Analog Electronics, DLD and Electric Machines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--/ service_area  -->
+
+    <div class="project_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                    <div class="projects_thumb">
+                        <img src="{% static 'img/about/projects.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="projects_info">
+                        <h3>Sentiment Analysis on Django</h3>
+                        <p>A responsive django app that records the user's expressions while watching a product video set by the admin and analyze emotions to give a feedback!
+                            </p>
+                        <a href="#" class="boxed-btn3">Browse Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial_area  -->
+    <div class="testimonial_area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <div class="quote">
+                                                <img src="{% static 'img/testmonial/quote.svg' %}" alt="">
+                                            </div>
+                                            <p>Kamran did an excellent job with our backend. It was a rather complex work, however, his skills and experiences were very much helpful in this occasion. I hope to work with him soon. He has my recommendations. </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                        <img src="{% static 'img/testmonial/thumb.png' %}" alt="">
+                                                </div>
+                                                <h3>Robert Thomson</h3>
+                                                <span>Business Owner</span>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <div class="quote">
+                                                <img src="{% static 'img/testmonial/quote.svg' %}" alt="">
+                                            </div>
+                                            <p>Kamran is a fantastic person to work with. He was prompt and delivered exactly what was asked of. Will work with him again in the future! </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                        <img src="{% static 'img/testmonial/thumb.png' %}" alt="">
+                                                </div>
+                                                <h3>Jessica Ron</h3>
+                                                <span>Restaurant Owner</span>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <div class="quote">
+                                                <img src="{% static 'img/testmonial/quote.svg' %}" alt="">
+                                            </div>
+                                            <p>I couldn't think more highly of Kamran in his technical ability, attention to detail, efficiency, and ability to solve significant problems. He was fun to work with and I look forward to working with him in the future. </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                        <img src="{% static 'img/testmonial/thumb.png' %}" alt="">
+                                                </div>
+                                                <h3>Joseph H.</h3>
+                                                <span>Marketing Agency</span>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /testimonial_area  -->
+    
+    <div class="discuss_projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="project_text text-center">
+                        <h3>Let’s discuss for a project</h3>
+                        <p> I was a creative person before I became a developer. As such, I have an eye for design. I find that most clients appreciate this. So let's bring your idea into reality?</p>
+
+                        <a class="boxed-btn3" href="{% url 'contact' %}">Start Talking</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="menu_links">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="socail_links">
+                            <ul>
+                                <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed and built <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Kamran Hasan</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- JS here -->
+    <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/ajax-form.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/scrollIt.js' %}"></script>
+    <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/gijgo.min.js' %}"></script>
+
+    <!--contact js-->
+    <script src="{% static 'js/contact.js' %}"></script>
+    <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js/jquery.form.js' %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/mail-script.js' %}" ></script>
+
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
