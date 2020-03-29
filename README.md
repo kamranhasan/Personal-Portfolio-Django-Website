@@ -1,15 +1,15 @@
-*Personal Portfolio Django Website.
+# Personal Portfolio Django Website.
 
-Live Demo:-
+## Live Demo:-
 
 kamranhasan.pythonanywhere.com
 
-Requirements:-
+## Requirements:-
 
 (1)pip install django==1.11.29
 
 (2)pip install django-crispy-forms==1.2.7
 
-Note:-
+## Note:-
 
 Please avoid removing credits from the footer!
